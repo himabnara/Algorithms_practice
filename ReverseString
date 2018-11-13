@@ -1,0 +1,6 @@
+String args = "abcde";
+StringBuffer reversedStr = new StringBuffer();
+for(int i=args.length-1;i>=0;i--){
+  reversedStr.append(args.charAt(i));
+}
+System.out.println(reversedStr.toString());
